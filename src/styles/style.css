@@ -1,4 +1,6 @@
-*{transition: all .1s ease-in;}
+* {
+   transition: all .1s ease-in;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -81,6 +83,7 @@ label {
     font-size: 11px;
     line-height: 13px;
     margin-left: 5px;
+    vertical-align: middle;
  }
 
  input:checked + label, input:checked + label span {
